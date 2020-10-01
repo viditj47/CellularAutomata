@@ -45,7 +45,10 @@ def R156(p,q,r):
 def R51(p,q,r):
     a = NOT(q)
     return a
-
+def R60(p,q,r):
+    
+    a=NOT(p) or NOT(q)
+    return a
 #{51,51,51,102,153,153,51,156}
 
 #print(R156(0,1,1))
